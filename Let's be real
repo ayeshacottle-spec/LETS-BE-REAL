@@ -1,0 +1,14 @@
+# 1. create a Vite React app
+npm create vite@latest lets-be-real -- --template react
+
+cd lets-be-real
+
+# 2. install dependencies (and lucide-react used in the prototype)
+npm install
+
+# 3. add lucide-react
+npm install lucide-react
+
+# 4. Install Tailwind (follow Tailwind setup for Vite - short steps)
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
